@@ -136,7 +136,6 @@ sbatch jobs/job_cpu.sh
 Acompanhe a execução em tempo real:
 
 ```bash
-watch -n 1 squeue -u $USER
 tail -f logs/saida_cpu_JOBID.out
 ```
 
