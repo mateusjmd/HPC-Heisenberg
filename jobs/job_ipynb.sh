@@ -10,7 +10,6 @@
 #SBATCH --time=DD-HH:MM:SS
 #SBATCH --output=logs/slurm-%j.out
 #SBATCH --mail-type=BEGIN,END,FAIL
-#SBATCH --mail-user=usuarioXXX@ilum.cnpem.br
 
 # ---- Preparacao do ambiente ----
 mkdir -p logs
