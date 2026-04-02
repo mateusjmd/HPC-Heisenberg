@@ -133,8 +133,13 @@ Pressione a tecla CTRL e clique com o botão esquerdo do mouse no link com a seg
 sbatch jobs/job_cpu.sh
 ```
 
-Acompanhe a execução em tempo real:
+Acompanhe a execução em tempo real (opcional):
 
+```bash
+watch -n 1 squeue -u $USER (exige login prévio no nó em que o job foi alocado)
+```
+
+Verifique os resultados obtidos em tempo real:
 ```bash
 tail -f logs/saida_cpu_JOBID.out
 ```
@@ -147,10 +152,10 @@ tail -f logs/saida_cpu_JOBID.out
 sbatch jobs/job_gpu.sh
 ```
 
-Monitore o uso da GPU durante a execução:
+Monitore o uso da GPU durante a execução (opcional):
 
 ```bash
-watch -n 1 nvidia-smi
+watch -n 1 nvidia-smi (exige login prévio no nó em que o job foi alocado)
 ```
 
 ---
