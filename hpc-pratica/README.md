@@ -1,7 +1,7 @@
 # Atividade Prática — HPC Heisenberg
 ### Simulação de Difusão por Random Walk
 
-O presente repositório destina-se ao versionamento da atividade de demonstração para o uso do *cluster* HPC Heisenberg, enquanto extensão do material principal disponível em: [**Guia HPC Heisenberg**](https://github.com/mateusjmd/Ilum/blob/main/2026.1/HPC/Guia%20HPC%20Heisenberg.pdf).
+O presente repositório destina-se ao versionamento da atividade de demonstração para o uso do *cluster* HPC Heisenberg, enquanto extensão do material principal disponível em: [**Guia HPC Heisenberg**](https://github.com/mateusjmd/HPC-Heisenberg/blob/main/Guia%20HPC%20Heisenberg.pdf).
 
 ---
 
@@ -64,7 +64,7 @@ heisenberg-pratica/
 
 ## Pré-requisitos
 
-- Acesso ao *cluster* HPC Heisenberg (ver [**Guia HPC Heisenberg**](https://github.com/mateusjmd/Ilum/blob/main/2026.1/HPC/Guia%20HPC%20Heisenberg.pdf))
+- Acesso ao *cluster* HPC Heisenberg (ver [**Guia HPC Heisenberg**](https://github.com/mateusjmd/HPC-Heisenberg/blob/main/Guia%20HPC%20Heisenberg.pdf))
 - Conhecimento básico de terminal Linux
 - Python 3.10+ (provido pelo Conda no *cluster*)
 
@@ -194,4 +194,4 @@ n_steps: 500
 | Kernel morto no Jupyter | Reduza `n_particles` no `config.yaml` |
 | Log vazio | Verifique se o diretório `logs/` existe: `mkdir -p logs` |
 
-> Para outros problemas, consulte a **Seção 10 (Erros Comuns e Debugging)** do [**Guia HPC Heisenberg**](https://github.com/mateusjmd/Ilum/blob/main/2026.1/HPC/Guia%20HPC%20Heisenberg.pdf).
+> Para outros problemas, consulte a **Seção 10 (Erros Comuns e Debugging)** do [**Guia HPC Heisenberg**](https://github.com/mateusjmd/HPC-Heisenberg/blob/main/Guia%20HPC%20Heisenberg.pdf).
