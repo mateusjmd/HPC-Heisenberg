@@ -1,0 +1,23 @@
+# Saídas geradas pelo SLURM e pelos scripts (não versionar)
+logs/
+results/
+
+# Ambientes Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Dados grandes
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# IDEs
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
