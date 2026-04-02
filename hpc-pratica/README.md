@@ -118,8 +118,7 @@ sbatch jobs/job_notebook.sh
 Aguarde o job iniciar e obtenha o link de acesso:
 
 ```bash
-cd logs
-tail -f saida_notebook_JOBID.out
+tail -f logs/saida_notebook_JOBID.out
 ```
 
 Pressione a tecla CTRL e clique com o botão esquerdo do mouse no link com a seguinte estrutura: `http://172.XX.XX.XX:8888/tree...`.
